@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    font-family: "Work Sans", sans-serif;
+    padding: 0px;
+    margin: 0px;
+
+}
+a{
+    color: white;
+    text-decoration: none;
+
+}
+body{
+    background-image: linear-gradient(to right, #01022d , #000);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    background-image: 
+    linear-gradient(to right,#01022de5 30% ,#0000003d),
+    url(avatar.jpg) ;
+    background-position: center;
+    width: 90%;
+    height: 640px;
+
+}
+.container:hover{
+     background-image: 
+    linear-gradient(to right,#01022de5 30% ,transparent),
+    url(avatar.jpg) ;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+
+}
+.logo{
+    font-size: 30px;
+    text-transform: uppercase;
+}
+ 
+ul{
+    width: 60%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+ul a {
+    border-bottom: 2px solid transparent;
+}
+ul a:hover{
+    border-bottom-color: white;
+}
+
+.contant{
+    color: white;
+    width: 50%;
+    margin-top: 50px;
+    padding: 30px;
+
+
+}
+.contant h2{
+    font-size: 100px;
+    text-transform: uppercase;
+
+}
+.contant p{
+    letter-spacing: 3px;
+    width: 370px;
+    padding: 20px 0px;
+
+
+}
+.contant button{
+    font-size: 30px;
+    padding: 6px 10px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+}
+.contant button:hover{
+    background-color: transparent;
+    border-color: white;
+    color: white;
+
+}
